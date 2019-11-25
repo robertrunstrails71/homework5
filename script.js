@@ -140,7 +140,7 @@ $("#current-date-btn").on("click", function() {
     $("#dateSelect").attr("value", moment().format('MM/DD/YYYY'));
     });
 
-// $(document).on("click", ".saveBtn", setFields);
+
 
 $(document).on("click", ".saveBtn", setField);
 
