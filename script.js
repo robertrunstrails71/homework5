@@ -1,4 +1,3 @@
-  
 $("#dateSelect").attr("value", moment().format('MM/DD/YYYY'));
 $("#currentDay").text("Time: " +moment().format('LT'));
 $("#currentTime").text("Date: "+ moment().format('LL'));
