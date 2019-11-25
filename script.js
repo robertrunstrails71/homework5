@@ -118,7 +118,7 @@ function setField() {
    let tempKey = "";
    tempKey = $(this).attr("id").slice(3);
    let tempNum = parseInt(tempKey);
-   tempNum -= 9; //adjust array postion for hour
+   tempNum -= 9; 
    tempKey = "#hour"+ tempKey;
    console.log(tempKey);
    console.log($(tempKey).val());
@@ -136,7 +136,7 @@ $("#set-date-btn").on("click", function() {
 });
 
 $("#current-date-btn").on("click", function() {
-    // $(tempId).text();
+    
     $("#dateSelect").attr("value", moment().format('MM/DD/YYYY'));
     });
 
