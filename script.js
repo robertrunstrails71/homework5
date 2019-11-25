@@ -110,7 +110,7 @@ function setFields() {
 function setField() {
     let dateSet = $("#dateSelect").val();
     dateSet = moment(dateSet).format("DDMMYYYY");
-    toDos = JSON.parse(localStorage.getItem(dateSet));  //calls field from local to build existing array
+    toDos = JSON.parse(localStorage.getItem(dateSet));  
     if ( toDos === null) {
         toDos =[];
     }
