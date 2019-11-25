@@ -5,7 +5,7 @@ $("#currentTime").text("Date: "+ moment().format('LL'));
 var toDos =[];
 
 function timerSet(){
-    //math to get miliseconds until end of hour
+    //math for end of hour
     var timerEnd = moment().endOf('hour');
     var now = moment();
     var timer = timerEnd.diff(now);
